@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 
 :root, :root[data-theme='dark'] {
   --primary-color: #F0F0F0;
 
-  --primary-bg-color: #111217;
-  --secondary-bg-color: #28292E;
+  --primary-bg-color: #0d1642;
+  --secondary-bg-color: #0d1642;
   --primary-border-color: #28292E;
 	--secondary-border-color: #56575A;
 
-  --title-color: #F0F0F0;
-  --text-color: #9A9A9C;
+  --title-color: #ed4f27;
+  --text-color: #c9c9cb;
   --link-color: #9A9A9C;
   --icon-color: #C7C8C9;
+
+  /* --title-color: #F0F0F0;
+  --text-color: #9A9A9C;
+  --link-color: #9A9A9C;
+  --icon-color: #C7C8C9; */
 }
 
 :root[data-theme='light'] {
@@ -107,7 +114,7 @@ h4 {
 }
 
 h1, h2, h3 {
-  font-family: 'League Spartan', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Luckiest Guy',League Spartan', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   color: var(--title-color);
   font-weight: 200;
